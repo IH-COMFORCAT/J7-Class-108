@@ -71,4 +71,9 @@ public class AndroidPlayer implements Playable {
         this.isPlaying = false;
 
     }
+
+    @Override
+    public void addSongToQueue(String song) {
+
+    }
 }

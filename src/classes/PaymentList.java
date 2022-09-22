@@ -27,6 +27,7 @@ public class PaymentList implements TransactionList {
         List<Transaction> result = new ArrayList<>();
         for (Transaction t : transactions) {
             if (t.getDate().equals(date)) result.add(t);
+            
         }
         return result;
     }
